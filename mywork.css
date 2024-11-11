@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    border:solid 1px black;
+   
+    background-image:  linear-gradient( 111.4deg,  rgb(10, 10, 10) 6.5%, rgb(154, 33, 94)
+ );
+}
+
+
+.head{
+    height: 85px;
+     background-color: rgba(22, 4, 22, 0.929);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.head h1{  
+    color: #f7f6f6; 
+   
+
+     text-shadow: 0 0 10px #6c4dc2, 0 0 10px #9997ac, 0 0 10px #923f3f, 0 0 10px #693b7c, 0 0 20px #9b5cc9, 0 0 80px #896b93, 0 0 10px #4d055a, 0 0 10px #ce99de;
+    font-size: 35px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;       
+}
+
+.project{
+    padding-top: 25px;
+    text-shadow: 0 0 10px #6c4dc2, 0 0 10px #9997ac, 0 0 10px #923f3f; 
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    color:white;
+    text-align: center;
+}
+
+.cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.card1 h3{
+ padding-top: 50px;
+ padding-bottom: 20px;
+ padding-left: 25%;
+ color:rgb(252, 250, 251);
+ font-size: 33px;
+ font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0 0 10px #6c4dc2, 0 0 10px #9997ac, 0 0 10px #923f3f; 
+
+}
+
+.card1 img{
+    height: 300px;
+    width: 60%;
+    margin-bottom: 100px;
+    margin-left: 20%;
+    border: solid 1px white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px white;
+}
